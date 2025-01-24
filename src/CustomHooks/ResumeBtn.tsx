@@ -12,7 +12,13 @@ const ResumeBtn: React.FC = () => {
           <div className="resume_square" />
         </span>
         <p className="resume_title font-bold">Resume</p>
+        {/* <a
+          href="https://drive.google.com/file/d/15pPxqmC67jtPCTEbCG5xMKKBSbP71SMn/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        > */}
         <p className="resume_title">Open</p>
+        {/* </a> */}
       </label>
     </div>
   );
